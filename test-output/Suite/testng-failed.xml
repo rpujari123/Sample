@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Home.Product_search.Product_search">
+        <methods>
+          <include name="init"/>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- Home.Product_search.Product_search -->
+      <class name="Sales.Quotes.More_Favorites">
+        <methods>
+          <include name="init"/>
+          <include name="quit"/>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Sales.Quotes.More_Favorites -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
